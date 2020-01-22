@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* reset */
+*,*:after,*:before {
+	box-sizing: border-box;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,button,select,option,textarea,p,span,blockquote { padding:0;margin:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 50PX;
+}
+body {
+	position: relative;
+	width: 100%;
+	max-width: 750PX;
+	margin-left: auto;
+	margin-right: auto;
+	font: 0.24rem/1.5 "PingFangSC-Regular","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+	background-color: #f6f6f8;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+img {
+	display: block;
+	border: none;
+	object-fit: cover;
+}
+a {
+	display:block;
+	color: #fff;
+	text-decoration:none;
+	outline: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul {
+	list-style:none;
+}
+input,select,label,textarea,button {
+	vertical-align: middle;
+	outline: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+video::-webkit-media-controls-start-playback-button {
+	display: none;
+}
+
+[v-cloak] {
+	display: none;
+}

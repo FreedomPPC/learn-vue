@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="x5-fullscreen" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="full-screen" content="yes">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://res.sui.com/favicon.ico">
+    <title>test</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- QQ分享标题、描述、图片 -->
+    <meta itemprop="name" content="" />
+    <meta itemprop="description" name="description" content="" />
+    <meta id="share-img" itemprop="image" content=''>
+    <script>
+      !(function(win,doc){function setFontSize(){if(doc.body){var winWidth=doc.documentElement.clientWidth||doc.body.clientWidth;if(winWidth>750){winWidth=750}doc.documentElement.style.fontSize=(winWidth/750)*100+'px'}else{doc.addEventListener('DOMContentLoaded',setFontSize)}}var evt='resize';var timer=null;win.addEventListener(evt,function(){clearTimeout(timer);timer=setTimeout(setFontSize,300)},false);win.addEventListener("pageshow",function(e){if(e.persisted){clearTimeout(timer);timer=setTimeout(setFontSize,300)}},false);setFontSize()}(window,document));
+    </script>
+    <!--- fontend monitor begin -->
+    <script>
+      // 请根据项目自行修改businessType，卡牛项目需要修改appid为kn-frontend
+      var _spm=_spm||{};_spm.config={appid:'ssj-frontend',businessType:'此处按具体业务调整',moduleType:'此处按具体业务调整'},function(){var a=document.createElement('script');
+      a.type='text/javascript',a.async=!0,a.crossOrigin='anonymous',a.src='https://resources.sui.com/fed/analytics/__spm.js?v=' + new Date().getDate();
+      var b=document.getElementsByTagName('script')[0];b.parentNode.insertBefore(a,b)}();
+    </script>
+    <!--- fontend monitor end -->
+  </head>
+  <body>
+    <noscript>
+        <strong>很抱歉，本页面需要启用JavaScript才能访问，请启用JavaScript后重新访问</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script async src="<%= BASE_URL %>ga.js"></script>
+  </body>
+</html>

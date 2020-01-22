@@ -1,0 +1,48 @@
+{
+  "name": "learn-vue",
+  "version": "1.0.0",
+  "description": "A vue project",
+  "author": "LiYunhao <yunhao_li@sui.com>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "npm run serve",
+    "build": "vue-cli-service build --mode production",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:test": "vue-cli-service build --mode testing",
+    "build:uat": "vue-cli-service build --mode uat",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.4.9",
+    "axios": "^0.18.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.6"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-runtime": "^6.26.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-url": "^8.0.0",
+    "vconsole-webpack-plugin": "^1.4.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
