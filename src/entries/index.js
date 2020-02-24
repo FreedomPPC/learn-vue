@@ -1,6 +1,6 @@
 import 'css/common';
 import Vue from 'vue';
-import App from '../pages/Index.vue';
+import App from '../pages/App.vue';
 import router from '@/router';
 
 import Antd from 'ant-design-vue';
@@ -8,7 +8,7 @@ import 'ant-design-vue/dist/antd.css';
 
 Vue.config.productionTip = false;
 
-Vue.use(Antd);
+Vue.use(Antd)
 
 new Vue({
     router,

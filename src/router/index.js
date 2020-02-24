@@ -6,8 +6,13 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'HelloWorld',
-            component: ()=> import(/* webpackChunkName: "HelloWorld" */'@/components/HelloWorld')
+            name: 'Index',
+            component: ()=> import('@/pages/Index.vue')
+        },
+        {
+            path: '/functional-page',
+            name: 'FunctionalPage',
+            component: ()=> import('@/pages/FunctionalPage.vue')
         }
     ]
 });
